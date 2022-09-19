@@ -10,6 +10,7 @@
 - Chrome Browser
 - Chrome Driver of the correct Browser, in root of project.
 - pip install -r requirements.txt
+- Change MySql connection settings within `start.py`
 - python start.py {command}
 ```
 
