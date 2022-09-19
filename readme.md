@@ -8,7 +8,7 @@
 - Python 3.x
 - MySQL
 - Chrome Browser
-- Chrome Driver of the correct Browser in root of project.
+- Chrome Driver of the correct Browser, in root of project.
 - pip install -r requirements.txt
 - python start.py {command}
 ```
