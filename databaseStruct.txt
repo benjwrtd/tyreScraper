@@ -1,0 +1,34 @@
+---
+--- Create the Main Database `tyrescraper_db`
+---
+CREATE DATABASE tyrescraper_db;
+
+--
+-- Table structure for table `dexelscrapedata_tbl`
+--
+
+CREATE TABLE `dexelscrapedata_tbl` (
+  `tyreManufacturer` text NOT NULL,
+  `tyrePattern` text NOT NULL,
+  `tyreSize` text NOT NULL,
+  `tyrePrice` decimal(6,2) NOT NULL,
+  `tyreSeason` text NOT NULL,
+  `tyreRowStamp` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `nationalscrapedata_tbl`
+--
+
+CREATE TABLE `nationalscrapedata_tbl` (
+  `tyreManufacturer` text NOT NULL,
+  `tyrePattern` text NOT NULL,
+  `tyreSize` text NOT NULL,
+  `tyrePrice` decimal(6,2) NOT NULL,
+  `tyreSeason` text NOT NULL,
+  `tyreRowStamp` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+COMMIT;
+
