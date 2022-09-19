@@ -7,7 +7,7 @@
 ```
 - Python 3.x
 - MySQL
-- sudo pip install -r requirements.txt
+- pip install -r requirements.txt
 - python start.py {command}
 ```
 
