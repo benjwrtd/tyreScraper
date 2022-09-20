@@ -14,7 +14,7 @@ testDataArr = [[205,55,16],[225,50,16],[185,16,14]]
 tyrescraperDB = mysql.connector.connect(
   host="localhost",
   user="yourusername",
-  password="yourpassword"
+  password="yourpassword",
   database="tyrescraper_db"
 )
 
