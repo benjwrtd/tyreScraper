@@ -15,6 +15,7 @@ tyrescraperDB = mysql.connector.connect(
   host="localhost",
   user="yourusername",
   password="yourpassword"
+  database="tyrescraper_db"
 )
 
 cursor = tyrescraperDB.cursor()
